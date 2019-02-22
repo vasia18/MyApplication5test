@@ -1,5 +1,8 @@
 <resources>
-    <string name="app_name">My Application5</string>
+    <string name="app_name">Application5</string>
+    <string name="app_name2">Название 2</string>
+    <string name="app_name3">Назввание 3</string>
+    <string name="app_name4">Название 4</string>
     <string name="button_One">Кнопка первая</string>
     <string name="button_Two">Кнопка вторая</string>
     <string name="button_Tree">Кнопка третяя</string>
