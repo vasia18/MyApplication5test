@@ -3,6 +3,7 @@
     <string name="app_name2">Название 2</string>
     <string name="app_name3">Назввание 3</string>
     <string name="app_name4">Название 4</string>
+    <string name="app_name5">Название 5</string>
     <string name="button_One">Кнопка первая</string>
     <string name="button_Two">Кнопка вторая</string>
     <string name="button_Tree">Кнопка третяя</string>
@@ -11,12 +12,6 @@
     <string name="second_screen">Второй экран</string>
     <string name="third_screen">третий экран</string>
     <string name="fourth_screen">Четвертый экран</string>
+    <string name="null1">Текст</string>
 
-    <string name="me_action_settings">Настройки</string>
-    <string name="me_action_2">Меню 1</string>
-    <string name="me_action_3">Меню 2</string>
-    <string name="me_action_o_program">О программе</string>
-    <string name="me_action_1">Новое меню1</string>
-    <string name="me_action2">Новое меню2</string>
-    <string name="me_actionTwo">Еще меню</string>
 </resources>
