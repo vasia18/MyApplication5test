@@ -8,6 +8,6 @@ public class Activity_about_one extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_about_one);
+        setContentView(R.layout.content_main);
     }
 }
