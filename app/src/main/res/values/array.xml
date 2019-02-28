@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="countries">
+        <item>Рыжик</item>
+        <item>Барсик</item>
+        <item>Мурзик</item>
+        <item>Мурка</item>
+        <item>Васька</item>
+        <item>Томасина</item>
+        <item>Кристина</item>
+        <item>Пушок</item>
+        <item>Дымка</item>
+        <item>Кузя</item>
+        <item>Китти</item>
+        <item>Барбос</item>
+        <item>Масяня</item>
+        <item>Масяня</item>
+        <item>Симба</item>
+
+    </string-array>
+
+
+</resources>
