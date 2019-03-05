@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 
@@ -19,17 +20,14 @@ public class Main4Activity extends AppCompatActivity implements View.OnClickList
         buttonFore = (Button) findViewById(R.id.buttonFore);
         buttonFore.setOnClickListener(this);
 
-        ActionBar ab = getSupportActionBar();
-        ab.setDisplayHomeAsUpEnabled(true);
-
-
     }
+
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.buttonFore:
-                Intent intent = new Intent(this, Activity_about_one.class);
+                Intent intent = new Intent(this, Main5Activity.class);
                 startActivity(intent);
 
                 break;
