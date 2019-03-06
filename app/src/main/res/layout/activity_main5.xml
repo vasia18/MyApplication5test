@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="horizontal"
     tools:context=".Main5Activity">
 
+
     <Button
-        android:id="@+id/buttonFive"
+        android:id="@+id/buttonFive1"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_weight="1"
         android:background="@drawable/selector_button_fore_pressed"
         android:text="@string/button_five" />
 
-</RelativeLayout>
+
+    <Button
+        android:id="@+id/buttonFive2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_weight="1"
+        android:background="@drawable/selector_button_fore_pressed"
+        android:text="@string/button_five" />
+
+
+</LinearLayout>
