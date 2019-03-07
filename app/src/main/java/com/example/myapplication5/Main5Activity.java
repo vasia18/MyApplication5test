@@ -7,7 +7,4 @@ import android.widget.ListView;
 
 public class Main5Activity extends AppCompatActivity {
 
-
-
-    }
 }

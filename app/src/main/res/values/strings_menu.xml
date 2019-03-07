@@ -8,6 +8,6 @@
     <string name="me_action_1">Новое меню1</string>
     <string name="me_action2">Новое меню2</string>
     <string name="me_actionTwo">Еще меню</string>
-    <string name="Programm_info">Информация о программе</string>
+    <string name="program_info">Информация о программе</string>
     <string name="desc">Просто картинка</string>
 </resources>
