@@ -3,33 +3,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="16dp"
-    android:orientation="horizontal"
-    tools:context=".Main5Activity">
+    android:background="@drawable/background_fore"
+    android:orientation="vertical"
+    tools:context=".Main4Activity">
 
+    <include layout="@layout/toolbar" />
 
     <Button
         android:id="@+id/buttonFive1"
-        style="?android:attr/buttonBarButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:layout_marginEnd="7dp"
-        android:layout_marginRight="7dp"
-        android:layout_weight="1"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="32dp"
         android:background="@drawable/selector_button_fore_pressed"
-        android:text="@string/button_One" />
-
+        android:text="@string/button_five" />
 
     <Button
         android:id="@+id/buttonFive2"
-        style="?android:attr/buttonBarButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:layout_marginStart="7dp"
-        android:layout_marginLeft="7dp"
-        android:layout_weight="1"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="32dp"
         android:background="@drawable/selector_button_fore_pressed"
-        android:text="@string/button_fore" />
+        android:text="@string/button_five" />
 
 
 </LinearLayout>

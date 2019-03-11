@@ -4,29 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".Main3Activity">
 
-    <item
-        android:id="@+id/a_More1"
-        android:icon="@drawable/ic_arrow_downward_black_24dp"
-        app:showAsAction="always">
-        <mene>
+    <mene>
 
-            <item
-                android:id="@+id/menu_settings"
-                android:icon="@drawable/ic_android_black_2"
-                android:orderInCategory="3"
-                android:title="@string/me_action_o_program" />
-
-            <item
-                android:id="@+id/aM_Home1"
-                android:icon="@drawable/ic_android_black_24dp"
-                android:title="Home" />
-
-            <item
-                android:id="@+id/aM_Home2"
-                android:icon="@drawable/ic_android_black_24dp"
-                android:title="Home" />
-
-        </mene>
-    </item>
-
+        <item
+            android:id="@+id/menu_settings"
+            android:orderInCategory="3"
+            android:title="@string/me_action_o_program" />
+    </mene>
 </menu>

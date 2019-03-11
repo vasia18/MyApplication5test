@@ -8,6 +8,7 @@
     android:orientation="vertical"
     tools:context=".Main2Activity">
 
+    <include layout="@layout/toolbar" />
 
 
     <Button
