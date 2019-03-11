@@ -1,9 +1,10 @@
 <resources>
-    <string name="app_name">Application5</string>
-    <string name="app_name2">Название 2</string>
-    <string name="app_name3">Назввание 3</string>
-    <string name="app_name4">Название 4</string>
-    <string name="app_name5">Название 5</string>
+    <string name="app_name">Название1</string>
+    <string name="app_name2">Название2</string>
+    <string name="app_name3">Назввание3</string>
+    <string name="app_name4">Название4</string>
+    <string name="app_name5">Название5</string>
+    <string name="app_name6">Название6</string>
     <string name="button_six">Кнопка переход</string>
     <string name="button_five">Кнопка шестая</string>
     <string name="button_One">Кнопка первая</string>
