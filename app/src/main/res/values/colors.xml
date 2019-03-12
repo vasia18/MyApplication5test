@@ -6,5 +6,6 @@
     <color name="backgroundButtonOne">#ff6d9b00</color>
     <color name="colorTextView">#4CAF50</color>
     <color name="colorPrimary1">#673AB7</color>
-    <color name="toolbar_orange">#FF9800</color>
+    <color name="toolbar_orange1">#FF9800</color>
+    <color name="sliding_menu_color">#D8575757</color>
 </resources>
