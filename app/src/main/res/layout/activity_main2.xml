@@ -13,69 +13,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="56dp"
-            android:orientation="vertical">
+        <include layout="@layout/toolbar" />
 
-            <include layout="@layout/toolbar" />
-
-
-            <android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:id="@+id/srQuotesRefresher"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_below="@+id/toolbar_actionbar">
-
-                <com.nhaarman.listviewanimations.itemmanipulation.DynamicListView
-                    android:id="@+id/lvFinanceItemsList"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/main_background_gray"
-                    android:divider="@android:color/transparent"
-                    android:dividerHeight="3dp"
-                    android:drawSelectorOnTop="true"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp"></com.nhaarman.listviewanimations.itemmanipulation.DynamicListView>
-
-
-            </android.support.v4.widget.SwipeRefreshLayout>
-
-            <com.gc.materialdesign.views.ProgressBarCircularIndeterminate
-                android:id="@+id/pbLoadingQuotes"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_centerInParent="true"
-                android:background="@color/toolbar_orange"
-                android:visibility="gone" />
-
-            <TextView
-                android:id="@+id/tvNoInternet"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:fontPath="fonts/Roboto-Regular.ttf"
-                android:text="@string/no_internet_connection"
-                android:textSize="20sp"
-                android:visibility="gone" />
-
-
-        </RelativeLayout>
 
     </FrameLayout>
 
-    <ListView
-        android:id="@+id/left_drawer"
-        android:layout_width="240dp"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:background="@color/sliding_menu_color"
-        android:choiceMode="singleChoice"
-        android:divider="@android:color/transparent"
-        android:dividerHeight="0dp"
-        android:drawSelectorOnTop="true"
-        android:paddingBottom="30dp"
-        android:stackFromBottom="true" />
 
-
-    </RelativeLayout>
+</RelativeLayout>
