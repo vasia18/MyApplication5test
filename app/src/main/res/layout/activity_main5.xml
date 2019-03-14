@@ -9,31 +9,29 @@
 
     <include layout="@layout/toolbar" />
 
-    <Button
-        android:id="@+id/buttonFive1"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
-        android:layout_marginBottom="32dp"
-        android:background="@drawable/selector_button_fore_pressed"
-        android:text="@string/button_five" />
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/buttonFive2"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
-        android:layout_marginBottom="32dp"
-        android:background="@drawable/selector_button_fore_pressed"
-        android:text="@string/button_five" />
+
+        <Button
+            android:id="@+id/buttonFive1"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_height="48dp"
+            android:background="@drawable/selector_button_fore_pressed"
+            android:text="@string/button_five1" />
+
+        <Button
+            android:id="@+id/buttonFive2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/selector_button_fore_pressed"
+            android:text="@string/button_five2" />
+
+    </LinearLayout>
 
 
 </LinearLayout>

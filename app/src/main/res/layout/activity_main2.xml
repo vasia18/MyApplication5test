@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,26 +7,39 @@
     android:orientation="vertical"
     tools:context=".Main2Activity">
 
-    <FrameLayout
-        android:id="@+id/content_frame_activity2"
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
 
-        <include layout="@layout/toolbar" />
-
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="@string/third_screen"
+            android:textColor="@color/colorTextView"
+            android:textSize="36sp" />
 
         <Button
-            android:id="@+id/buttonTwo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:id="@+id/buttonTwo1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/selector_button_free_pressed"
+            android:text="@string/button_Tree" />
 
-    </FrameLayout>
+        <Button
+            android:id="@+id/buttonTwo2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/selector_button_free_pressed"
+            android:text="@string/button_Tree" />
 
 
-</RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

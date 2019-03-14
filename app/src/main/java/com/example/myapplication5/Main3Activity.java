@@ -9,15 +9,15 @@ import android.widget.Button;
 
 public class Main3Activity extends AppCompatActivity implements View.OnClickListener {
 
-    Button buttonFree;
+    private Button buttonFree1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
 
-        buttonFree = (Button) findViewById(R.id.buttonFree);
-        buttonFree.setOnClickListener(this);
+        buttonFree1 = (Button) findViewById(R.id.buttonFree1);
+        buttonFree1.setOnClickListener(this);
     }
 
 
@@ -30,7 +30,7 @@ public class Main3Activity extends AppCompatActivity implements View.OnClickList
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.buttonFree:
+            case R.id.buttonFree1:
                 Intent intent = new Intent(this, Main4Activity.class);
                 startActivity(intent);
 

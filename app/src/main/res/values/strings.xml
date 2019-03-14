@@ -32,8 +32,13 @@
     <string name="hello_world_hg">Hello World!вhg</string>
     <string name="remove">remove</string>
     <string name="sort_ab">sort_ad</string>
-    <string name="micropfone">microphone</string>
+
     <string name="edit">edit</string>
-    <string name="no_internet_connection">no interation connection</string>
+    <string name="zt_text">Заглавный текст</string>
+    <string name="there_are_many_variations">There are many variations</string>
+    <string name="what_is_lorem_ipsum">What is Lorem Ipsum?</string>
+    <string name="why_do_we_use_it">Why do we use it?</string>
+    <string name="button_five2">2</string>
+    <string name="button_five1">1</string>
 
 </resources>

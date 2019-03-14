@@ -3,8 +3,6 @@
     package="com.example.myapplication5">
 
     <application
-        android:versionCode="1"
-        android:versionName="1.0"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -12,14 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:uiOptions="splitActionBarWhenNarrow">
-        <activity android:name=".MainActivity"></activity>
         <activity
             android:name=".Main6Activity"
-            android:label="@string/app_name6"
+            android:label="@string/app_name5"
             android:parentActivityName=".Main5Activity" />
         <activity
             android:name=".Main5Activity"
-            android:label="@string/app_name5"
+            android:label="окно пятое"
             android:parentActivityName=".Main4Activity" />
         <activity
             android:name=".Main4Activity"
@@ -32,7 +29,18 @@
         <activity
             android:name=".Main2Activity"
             android:label="@string/app_name2"
-            android:parentActivityName=".Main5Activity" />
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".Main6Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
