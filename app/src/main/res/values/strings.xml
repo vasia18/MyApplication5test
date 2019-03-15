@@ -9,7 +9,9 @@
     <string name="button_five">Кнопка шестая</string>
     <string name="button_One">Кнопка первая</string>
     <string name="button_Two">Кнопка вторая</string>
-    <string name="button_Tree">Кнопка третяя</string>
+    <string name="button_Tree1">Перейти на другой экран</string>
+    <string name="button_Tree2">Изменить текст</string>
+    <string name="button_Tree3">Перейти на экран</string>
     <string name="button_fore">Кнопка четвертая</string>
     <string name="first_screen">первый экран</string>
     <string name="second_screen">Второй экран</string>
@@ -40,5 +42,6 @@
     <string name="why_do_we_use_it">Why do we use it?</string>
     <string name="button_five2">2</string>
     <string name="button_five1">1</string>
+    <string name="tv_text">екст будет меняться</string>
 
 </resources>

@@ -7,39 +7,49 @@
     android:orientation="vertical"
     tools:context=".Main2Activity">
 
+
     <include layout="@layout/toolbar" />
 
-    <LinearLayout
+
+    <TextView
+        android:id="@+id/tv_text_izm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:orientation="vertical">
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="@string/third_screen"
+        android:textColor="@color/colorTextView"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/buttonTwo2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/selector_button_free_pressed"
+        android:text="@string/button_Tree2" />
+
+    <Button
+        android:id="@+id/buttonTwo1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/selector_button_free_pressed"
+        android:text="@string/button_Tree1" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
         <TextView
-            android:layout_width="match_parent"
+            android:id="@+id/tv_text"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
             android:gravity="center"
-            android:text="@string/third_screen"
-            android:textColor="@color/colorTextView"
-            android:textSize="36sp" />
+            android:text="@string/tv_text"
+            android:textSize="45sp" />
 
-        <Button
-            android:id="@+id/buttonTwo1"
-            android:layout_width="match_parent"
-            android:layout_height="48dp"
-            android:layout_marginBottom="16dp"
-            android:background="@drawable/selector_button_free_pressed"
-            android:text="@string/button_Tree" />
+    </ScrollView>
 
-        <Button
-            android:id="@+id/buttonTwo2"
-            android:layout_width="match_parent"
-            android:layout_height="48dp"
-            android:background="@drawable/selector_button_free_pressed"
-            android:text="@string/button_Tree" />
-
-
-    </LinearLayout>
 
 </LinearLayout>

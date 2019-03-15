@@ -9,30 +9,43 @@
 
     <include layout="@layout/toolbar" />
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/tv_izm_main3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:orientation="vertical">
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="@string/third_screen"
+        android:textColor="@color/colorTextView"
+        android:textSize="36sp" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:gravity="center"
-            android:text="@string/third_screen"
-            android:textColor="@color/colorTextView"
-            android:textSize="36sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/buttonFree1"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="48dp"
-            android:background="@drawable/selector_button_free_pressed"
-            android:text="@string/button_Tree" />
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_button_fore_pressed"
+            android:text="@string/button_Tree2" />
 
+        <Button
+            android:id="@+id/buttonFree2"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_button_free_pressed"
+            android:padding="10dp"
+            android:text="@string/button_Tree3" />
 
     </LinearLayout>
-
 
 </LinearLayout>
