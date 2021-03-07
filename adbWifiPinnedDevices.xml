@@ -1,0 +1,5 @@
+<application>
+  <component name="PinDeviceService">
+    <option name="pinnedDevices" value="[{&quot;id&quot;:&quot;192.168.0.103:5555&quot;,&quot;serialNumber&quot;:&quot;wopfwwy9ydwkh6to&quot;,&quot;name&quot;:&quot;Xiaomi Redmi Note 8 Pro&quot;,&quot;address&quot;:&quot;192.168.0.103&quot;,&quot;androidVersion&quot;:&quot;10&quot;,&quot;apiLevel&quot;:&quot;&quot;}]" />
+  </component>
+</application>
